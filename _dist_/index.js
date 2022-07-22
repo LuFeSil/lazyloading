@@ -28,7 +28,7 @@ const createImageNode = () => {
 
 const createNewLoader = () => {
   const container = document.createElement("div");
-  container.id = "loader-container"
+  container.id = "loader-container";
   container.className = "p-4 flex justify-center mx-auto";
 
   const loader = document.createElement("div");
